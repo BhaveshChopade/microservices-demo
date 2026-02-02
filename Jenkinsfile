@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         // --- CONFIGURATION ---
-        DOCKERHUB_USER = bhaveshhhhh  // <--- CHANGE THIS
+        DOCKERHUB_USER = 'bhaveshhhhh'  // <--- CHANGE THIS
         APP_NAME = 'frontend'
         IMAGE_TAG = "${BUILD_NUMBER}"
         
