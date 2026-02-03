@@ -730,7 +730,7 @@ spec:
                 - ALL
             privileged: false
             readOnlyRootFilesystem: true
-          image: bhaveshhhhh/frontend:10
+          image: bhaveshhhhh/frontend:11
           ports:
           - containerPort: 8080
           readinessProbe:
